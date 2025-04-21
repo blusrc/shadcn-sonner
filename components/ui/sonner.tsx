@@ -28,6 +28,7 @@ const Toaster = ({ ...props }: ToasterProps) => {
             "group-[.toast]:bg-muted group-[.toast]:text-muted-foreground",
         },
       }}
+      mobileOffset={{bottom: "80px"}}
 
       style={
         {
